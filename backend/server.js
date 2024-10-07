@@ -3,7 +3,7 @@ import cors from "cors";
 import movies from "./api/movies.route.js";
 const app = express();
 const corsOptions = {
-  origin: "", // Allow only your frontend
+  origin: "https://mernstackfull-front-end.vercel.app", // Allow only your frontend
   optionsSuccessStatus: 200, // For legacy browser support
 };
 // Apply CORS middleware with options
